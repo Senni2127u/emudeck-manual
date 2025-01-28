@@ -1,0 +1,101 @@
+site_name: EmuDeck Help
+site_url: https://bot.emudeck.com/help
+theme:
+  features:
+    - content.tooltips
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - toc.integrate
+    - navigation.footer
+    - navigation.sections
+  logo: assets/logo.png
+  favicon: assets/app_icon.jpg
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/EmuDeck"
+    - icon: "fontawesome/brands/discord"
+      link: "https://discord.gg/b9F7GpXtFP"
+    - icon: "fontawesome/brands/twitter"
+      link: "https://twitter.com/EmuDeck"
+    - icon: "fontawesome/brands/patreon"
+      link: "https://www.patreon.com/dragoonDorise"
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+nav:
+  - What's EmuDeck?: "index.md"
+  - Installation Guide:
+      - Installing EmuDeck Desktop: "install-guide/1_index.md"
+      - Setting up CloudSync / CloudSaves: "install-guide/2_setting-cloud.md"
+      - Copying ROMS and BIOS: "install-guide/3_copying-games.md"
+      - Launching games:
+          - Playing your games: "install-guide/4_playing-games.md"
+          - EmulationStation DE (ES-DE): "install-guide/esde/index.md"
+          - Steam Rom Manager (SRM): "install-guide/srm/index.md"
+  - Getting ROMS:
+      - EmuDeck Store: "getting-roms/store.md"
+      - Dumping your games: "getting-roms/dump.md"
+
+  - Using the EmuDeck App:
+      - Quick Settings: "using-app/1_quick-settings.md"
+      - Manage Emulators: "using-app/2_manage-emulators.md"
+      - Import Games & BIOS: "using-app/3_import-games.md"
+      - Quick & Custom Reset: "using-app/4-quick-custom-reset.md"
+      - Screen Resolution: "using-app/5_screen-resolution.md"
+      - Retro Achievements: "using-app/6_retro-achievements.md"
+      - Cloud Saves: "using-app/7_cloud_saves.md"
+      - Migrate Installation: "using-app/8_migrate_installation.md"
+      - Cloud Services: "using-app/9_cloud-services.md"
+      - Decky plugins: "using-app/10_decky-plugins.md"
+  - Supported Systems:
+      - Systems: "supported-systems.md"
+      - Emulators: "supported-emulators.md"
+  - Other:
+      - Cheatsheet: "cheatsheet.md"
+      - Hotkeys: "hotkeys.md"
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
