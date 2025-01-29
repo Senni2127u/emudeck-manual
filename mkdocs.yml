@@ -1,5 +1,5 @@
 site_name: EmuDeck Help
-site_url: https://bot.emudeck.com/help
+site_url: https://android.emudeck.com
 theme:
   features:
     - content.tooltips
@@ -12,6 +12,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/app_icon.jpg
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -42,6 +43,34 @@ extra:
       link: "https://twitter.com/EmuDeck"
     - icon: "fontawesome/brands/patreon"
       link: "https://www.patreon.com/dragoonDorise"
+  icons:
+    custom:
+      custom-icon: assets/icons/mi-icono.svg
+      custom-other-icon: assets/icons/otro-icono.svg
+      custom-android: overrides/.icons/custom-android.svg
+      custom-books: overrides/.icons/custom-books.svg
+      custom-boot: overrides/.icons/custom-boot.svg
+      custom-checker: overrides/.icons/custom-checker.svg
+      custom-compress: overrides/.icons/custom-compress.svg
+      custom-custom: overrides/.icons/custom-custom.svg
+      custom-disk: overrides/.icons/custom-disk.svg
+      custom-doc: overrides/.icons/custom-doc.svg
+      custom-forbidden: overrides/.icons/custom-forbidden.svg
+      custom-help: overrides/.icons/custom-help.svg
+      custom-joystick: overrides/.icons/custom-joystick.svg
+      custom-list: overrides/.icons/custom-list.svg
+      custom-migrate: overrides/.icons/custom-migrate.svg
+      custom-package: overrides/.icons/custom-package.svg
+      custom-plugin: overrides/.icons/custom-plugin.svg
+      custom-prize: overrides/.icons/custom-prize.svg
+      custom-question: overrides/.icons/custom-question.svg
+      custom-quick: overrides/.icons/custom-quick.svg
+      custom-screen: overrides/.icons/custom-screen.svg
+      custom-success: overrides/.icons/custom-success.svg
+      custom-theme: overrides/.icons/custom-theme.svg
+      custom-uninstall: overrides/.icons/custom-uninstall.svg
+      custom-warning: overrides/.icons/custom-warning.svg
+      custom_gear: assets/.icons/custom-gear.svg
 
 extra_css:
   - stylesheets/extra.css
@@ -57,6 +86,7 @@ nav:
           - Playing your games: "install-guide/4_playing-games.md"
           - EmulationStation DE (ES-DE): "install-guide/esde/index.md"
           - Steam Rom Manager (SRM): "install-guide/srm/index.md"
+      - Hotkeys: "install-guide/5_hotkeys.md"
   - Getting ROMS:
       - EmuDeck Store: "getting-roms/store.md"
       - Dumping your games: "getting-roms/dump.md"
@@ -68,16 +98,19 @@ nav:
       - Quick & Custom Reset: "using-app/4-quick-custom-reset.md"
       - Screen Resolution: "using-app/5_screen-resolution.md"
       - Retro Achievements: "using-app/6_retro-achievements.md"
-      - Cloud Saves: "using-app/7_cloud_saves.md"
-      - Migrate Installation: "using-app/8_migrate_installation.md"
-      - Cloud Services: "using-app/9_cloud-services.md"
-      - Decky plugins: "using-app/10_decky-plugins.md"
+      - Compressor: "using-app/7_compressor.md"
+      - Bios Checker: "using-app/8_bios.md"
+      - Gaming mode: "using-app/9_gaming-mode.md"
+      - Cloud Saves: "using-app/10_cloud_saves.md"
+      - Migrate Installation: "using-app/11_migrate_installation.md"
+      - Decky plugins: "using-app/12_decky-plugins.md"
+      - Cloud Services: "using-app/13_cloud-services.md"
+
   - Supported Systems:
       - Systems: "supported-systems.md"
       - Emulators: "supported-emulators.md"
   - Other:
       - Cheatsheet: "cheatsheet.md"
-      - Hotkeys: "hotkeys.md"
 
 markdown_extensions:
   - abbr
@@ -97,5 +130,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - toc:
       permalink: true

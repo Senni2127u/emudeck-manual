@@ -42,7 +42,6 @@ Both options have these providers available:
 - <img src="/assets/cloud/onedrive.png">
 - <img src="/assets/cloud/pcloud.png">
 - <img src="/assets/cloud/sftp.png">
-- <img src="/assets/cloud/smb.png">
 
 </div>
 

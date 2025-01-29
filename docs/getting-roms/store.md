@@ -1,5 +1,6 @@
 # :material-store: EmuDeck Store
 
+<img src="/assets/store.png" alt="EmuDeck guide">
 The EmuDeck store is a curated catalog of games you can download for free.
 
 !!! info "Developers wanted!"
