@@ -1,1 +1,1 @@
-Not yet implemented
+You can check the old cheatsheet [here](https://emudeck.github.io/cheat-sheet/)

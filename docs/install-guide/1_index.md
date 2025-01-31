@@ -11,7 +11,7 @@ Once the app is installed you need to pick either [Easy Mode](# "Recommended for
     === "Easy"
         If you are new to Emulation this is the recommended method for you.
 
-        EmuDeck will only let you customize where you want to store your ROMS and BIOS, everything else will be setup with our default settings. You can always change settings, add or remove emulators after the installation.
+        EmuDeck will only let you customize where you want to store your ROMS and BIOS and how you want to integrate EmuDeck into your system, everything else will be setup with our default settings. You can always change settings, add or remove emulators after the installation.
 
         <img src="/assets/install_guide/select-storage.png" alt="EmuDeck guide">
 
@@ -22,16 +22,14 @@ Once the app is installed you need to pick either [Easy Mode](# "Recommended for
         EmuDeck will ask you several questions to customize your installation:
 
         - Location to store your ROMS and BIOS
+        - Level of integration: EmulationStation or SteamLibrary
         - Emulators to install
         - Configure RetroAchievements
         - Bezels for 4:3 and 1:1 systems
         - Aspect ratio for systems
         - Shaders for LCD / CRT simulation
         - Controller Layout
-        - Level of integration: EmulationStation or SteamLibrary
         - CloudSaves
-
-        After the installation is complete EmuDeck will ask you to setup cloud saves.
 
 ??? bug "Possible issues when installing"
 

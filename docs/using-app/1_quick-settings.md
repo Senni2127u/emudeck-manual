@@ -15,7 +15,7 @@ In this section you'll be able to change the same settings that _Custom Mode_ pr
 
 - **CloudSync**
   <br>
-  If you picked **Easy Mode** ES-DE will be installed by default
+  Quickly enable / disable CloudSync
 
 - **Bezels**
   <br>

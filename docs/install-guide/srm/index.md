@@ -42,7 +42,7 @@ SRM works by using parsers, every system has it's own parser, every parser will 
 
 !!! info "Add more games later"
 
-    You need to follow the previous steps every time yuo want to add new games, it's recommended to only select the parser of the system you are going to add games.
+    You need to follow the previous steps every time you want to add new games, it's recommended to only select the parser of the system you are going to add games.
 
 !!! bug "My games are not showing in SRM"
 

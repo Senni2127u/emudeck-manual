@@ -1,5 +1,5 @@
 site_name: EmuDeck Help
-site_url: https://android.emudeck.com
+site_url: https://manual.emudeck.com
 theme:
   features:
     - content.tooltips
@@ -80,37 +80,66 @@ nav:
   - What's EmuDeck?: "index.md"
   - Installation Guide:
       - Installing EmuDeck Desktop: "install-guide/1_index.md"
-      - Setting up CloudSync / CloudSaves: "install-guide/2_setting-cloud.md"
-      - Copying ROMS and BIOS: "install-guide/3_copying-games.md"
+      - Level of integration: "install-guide/2_integration.md"
+      - Setting up CloudSync / CloudSaves: "install-guide/3_setting-cloud.md"
+      - Copying ROMS and BIOS: "install-guide/4_copying-games.md"
       - Launching games:
-          - Playing your games: "install-guide/4_playing-games.md"
+          - Playing your games: "install-guide/5_playing-games.md"
           - EmulationStation DE (ES-DE): "install-guide/esde/index.md"
           - Steam Rom Manager (SRM): "install-guide/srm/index.md"
-      - Hotkeys: "install-guide/5_hotkeys.md"
+      - Hotkeys: "install-guide/6_hotkeys.md"
   - Getting ROMS:
       - EmuDeck Store: "getting-roms/store.md"
       - Dumping your games: "getting-roms/dump.md"
 
   - Using the EmuDeck App:
-      - Quick Settings: "using-app/1_quick-settings.md"
-      - Manage Emulators: "using-app/2_manage-emulators.md"
-      - Import Games & BIOS: "using-app/3_import-games.md"
-      - Quick & Custom Reset: "using-app/4-quick-custom-reset.md"
-      - Screen Resolution: "using-app/5_screen-resolution.md"
-      - Retro Achievements: "using-app/6_retro-achievements.md"
-      - Compressor: "using-app/7_compressor.md"
-      - Bios Checker: "using-app/8_bios.md"
-      - Gaming mode: "using-app/9_gaming-mode.md"
-      - Cloud Saves: "using-app/10_cloud_saves.md"
-      - Migrate Installation: "using-app/11_migrate_installation.md"
-      - Decky plugins: "using-app/12_decky-plugins.md"
-      - Cloud Services: "using-app/13_cloud-services.md"
+      - Sections:
+          - Quick Settings: "using-app/1_quick-settings.md"
+          - Manage Emulators: "using-app/2_manage-emulators.md"
+          - Import Games & BIOS: "using-app/3_import-games.md"
+          - Quick & Custom Reset: "using-app/4-quick-custom-reset.md"
+          - Screen Resolution: "using-app/5_screen-resolution.md"
+          - Retro Achievements: "using-app/6_retro-achievements.md"
+          - Compressor: "using-app/7_compressor.md"
+          - Bios Checker: "using-app/8_bios.md"
+          - Gaming mode: "using-app/9_gaming-mode.md"
+          - Cloud Saves: "using-app/10_cloud_saves.md"
+          - Migrate Installation: "using-app/11_migrate_installation.md"
+          - Decky plugins: "using-app/12_decky-plugins.md"
+          - Cloud Services: "using-app/13_cloud-services.md"
 
   - Supported Systems:
       - Systems: "supported-systems.md"
       - Emulators: "supported-emulators.md"
   - Other:
       - Cheatsheet: "cheatsheet.md"
+      - Troubleshooting: "troubleshooting.md"
+      - FAQ: "faq.md"
+  - Advanced:
+      - Emulators Tips & Tricks:
+          - Cemu: "tricks/cemu.md"
+          - Citra: "tricks/citra.md"
+          - Citron: "tricks/citron.md"
+          - Dolphin: "tricks/dolphin.md"
+          - Duckstation: "tricks/duckstation.md"
+          - Flycast: "tricks/flycast.md"
+          - Mame: "tricks/mame.md"
+          - MelonDS: "tricks/melonds.md"
+          - mGBA: "tricks/mgba.md"
+          - Model2: "tricks/model2.md"
+          - PCSX2: "tricks/pcsx2.md"
+          - PPSSPP: "tricks/ppsspp.md"
+          - PrimeHack: "tricks/primehack.md"
+          - RetroArch: "tricks/retroarch.md"
+          - RMG: "tricks/rmg.md"
+          - RPCS3: "tricks/rpcs3.md"
+          - Ryujinx: "tricks/ryujinx.md"
+          - Supermodel: "tricks/supermodel.md"
+          - ShadPS4: "tricks/shadps4.md"
+          - Vita3K: "tricks/vita3k.md"
+          - Xemu: "tricks/xemu.md"
+          - Xenia:: "tricks/xenia.md"
+          - Yuzu: "tricks/yuzu.md"
 
 markdown_extensions:
   - abbr

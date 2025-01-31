@@ -4,10 +4,6 @@
 
 Allows you to manage and launch your ROMs through a single front-end application.
 
-!!! info "Installation"
-
-    ES-DE will be installed by default if you use *Easy Mode* and it's an optional feature in *Custom Mode*
-
 ### Launching ES-DE
 
 After installing EmuDeck or ES-DE from ==Manage Emulators==, it will be added automatically to your Steam Library in the =="Non-Steam"== tab, open it and you'll be presented with a list of all your ROMS organised by system.
