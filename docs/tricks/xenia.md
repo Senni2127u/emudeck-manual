@@ -6,7 +6,7 @@
 
 ### Troubleshooting Tips
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 - As a first step, Reset Xenia on the Manage Emulators page in the EmuDeck application
 - If you get a Wine related error, make sure your ROMs are in `Emulation/roms/xbox360/roms` or `Emulation/roms/xbox360/roms/xbla`, **not** `Emulation/roms/xbox360`
@@ -21,7 +21,7 @@
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 Multiplayer for Xenia is configured out of the box, no additional configuration is needed.
 
@@ -31,7 +31,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 ### How to Swap Out Xenia Builds
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 Xenia, through Proton/Wine, is currently in an experimental state. Updates may break or affect the emulator in unexpected ways. If an update does break certain games launching from Xenia, it is easy to swap out the build for an older one so you can continue playing.
 
@@ -57,7 +57,7 @@ This section will go over how to swap out the latest build of Xenia Canary for `
 
 ### How to Swap Between Vulkan and DX12
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 Recent (as of August 2023) updates of Proton Experimental increased compatibility for DX12. These updates allow more games to boot through Xenia using DX12. At the moment, EmuDeck sets Xenia to Vulkan by default, but swapping between the two is fairly easy.
 
@@ -96,7 +96,7 @@ DX12:
 
 ### How to Manage Multiple Discs
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 Xenia does not support M3U files.
 
@@ -132,7 +132,7 @@ To download the content on the additional discs and use it on the base disc , yo
 
 ### How to Set Up Xbox Live Arcade Games
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 #### File Format
 
@@ -182,7 +182,7 @@ Activated License:
 
 ### How to Delete Xenia's Prefix
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 Since Xenia is packaged as a Windows application and has no Linux version widely available, EmuDeck downloads and runs Xenia through Proton using a script. All of Xenia's important files (saves and configurations) are localized to Xenia's folder in `Emulation/roms/xbox360`.
 
@@ -209,7 +209,7 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
 
 ### How to Configure Language Settings
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 #### In-Game
 
@@ -239,7 +239,7 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
 
 ### How to Apply Patches
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 When you install Xenia through EmuDeck, a collection of game patches are also automatically downloaded to your `Emulation/roms/xbox360/patches` folder. These patches provide ways to fix various issues in games.
 
@@ -258,7 +258,7 @@ Do note that if your game ID does not match the ID in the patch, the patch may n
 
 ### How to Set Game Settings On a Per-Game Basis
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 For a full list of Xenia configurations, see [https://github.com/xenia-canary/xenia-canary/wiki/Options](https://github.com/xenia-canary/xenia-canary/wiki/Options).
 
@@ -357,7 +357,7 @@ To enable mount_cache:
 
 ### How to Access Xenia Settings in Game Mode
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 If you added Xenia as a shortcut to Steam through the "Emulators" parser in Steam ROM Manager, you may notice that it launches into a black screen if you try to open it in Game Mode. This is a quirk of how Proton interacts with Game Mode. However, there is a workaround.
 
@@ -381,7 +381,7 @@ If you added Xenia as a shortcut to Steam through the "Emulators" parser in Stea
 
 ### How to Extract ISOs to the XEX Format
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using `extract-xiso`, a tool bundled with EmuDeck. `extract-xiso` is typically located in `Emulation/tools/chdconv` and this path will be used for the below instructions. However if `extract-xiso` is not in this folder, it can also be found in `/home/deck/.config/EmuDeck/backend/tools/chdconv`. If `extract-xiso` is in neither of these folders, you may need to re-install EmuDeck (uninstalling first **is not** necessary).
 
@@ -398,7 +398,7 @@ If you have an Xbox 360 ISO and you would like to extract it to XEX, either for 
 
 ### How to Convert Xbox Live Arcade ROMs to XEX
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using the Xenia GUI.
 
@@ -411,7 +411,7 @@ If you have an Xbox 360 ISO and you would like to extract it to XEX, either for 
 
 ### How to Compress ROMs to ZAR
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 ZAR is a newer file format created by the Cemu developers allowing for optimized file storage. In a recent update, Xenia added support for ZAR allowing users to compress Xbox 360 ROMs.
 
@@ -429,7 +429,7 @@ If you are using ISOs, first extract your ISOs to XEX. For instructions, see [Ho
 
 ### How to Optimize Sonic Unleashed
 
-[Back to the Top](#xenia-table-of-contents)
+
 
 This section is a heavily modified version of the section from [THE DEFINITIVE STEAM DECK SONIC DOC](https://docs.google.com/document/d/1FsjXbyYQTIK9f9P_NYHoLGnv8_ZqHjgLPf9Qm0VMcVo/edit#heading=h.cropilw5ikhb).
 

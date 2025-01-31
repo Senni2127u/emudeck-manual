@@ -6,7 +6,7 @@
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 This section is strictly referring to local multiplayer. mGBA multiplayer on the Steam Deck can only be done in Desktop Mode.
 
@@ -26,7 +26,7 @@ If you are intending on trading with yourself (in a Pokemon game as an example),
 
 ### How to Use the Gyro Sensor
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 **IMPORTANT:** As of September 2023, there is a bug with rumble while using gyro. Keeping rumble enabled will severly impact your framerate. Open the mGBA emulator and disable the rumble feature if you intend on using gyro.
 
@@ -108,7 +108,7 @@ To restore the default Steam Deck controls:
 
 ### How to Use the Tilt Sensor
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 **Supported Games**
 
@@ -167,7 +167,7 @@ To restore the default Steam Deck controls:
 
 ### How to Use Cheats
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 **Cheat Resources**
 
@@ -197,7 +197,7 @@ _This list is not comprehensive_
 
 ### How to Roll Back mGBA to an Older Version
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 #### Preface
 
@@ -221,7 +221,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 ### How to Configure Language Settings
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 #### UI
 
@@ -238,7 +238,7 @@ Languages are cartridge-specific. For example, if you want to play Golden Sun in
 
 ### How to Create Multiple Save Files for a Game
 
-[Back to the Top](#mgba-table-of-contents)
+
 
 If you would like to create multiple saves for a game in games where multiple save options are not available (the Pokemon games for example), you can do so by creating unique save files for the game.
 

@@ -6,7 +6,7 @@
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
@@ -14,7 +14,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 ### How to Optimize Storage (Compression Tool)
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 To optimize storage, you can use the `EmuDeck Compression Tool` in the `Tools & Stuff` menu within EmuDeck.
 
@@ -28,12 +28,12 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ### How to Install Custom Textures
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 Here's how to install custom textures for PrimeHack:
 
 1. Open the PrimeHack emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked.
-   - <img src="https://user-images.githubusercontent.com/108900299/196001972-9b887344-b246-4c3d-9109-dfc9d76840f3.png" height="200">
+   <img src="https://user-images.githubusercontent.com/108900299/196001972-9b887344-b246-4c3d-9109-dfc9d76840f3.png" height="200">
 2. Open `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Load/Textures`
    - `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
    - If the `Load` and `Textures` folder do not exist, create them.
@@ -47,7 +47,7 @@ Here's how to install custom textures for PrimeHack:
 
 ### How to Configure PrimeHack to work with ES-DE
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in ES-DE.
 
@@ -57,7 +57,7 @@ For further instructions, refer to: [How to Select a Different Emulator on a Per
 
 ### How to Roll Back PrimeHack to an Older Version
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -84,7 +84,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#primehack-table-of-contents)
+
 
 #### UI
 

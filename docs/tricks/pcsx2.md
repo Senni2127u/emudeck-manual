@@ -6,7 +6,7 @@
 
 ### How to Verify ROMs
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 If you have a ROM that is not launching, you can verify your ROM directly in PCSX2. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, your issue may be that your ROM either transferred incorrectly or that you have a bad dump.
 
@@ -35,7 +35,7 @@ If you have a good dump, your issue lies elsewhere. Make sure you have PlayStati
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
@@ -43,7 +43,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 ### How to Optimize Storage (Compression Tool)
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.
 
@@ -57,7 +57,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 Multiplayer for PCSX2 is configured out of the box, no additional configuration is needed.
 
@@ -67,7 +67,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 ### How to Manage Multiple Discs
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 PCSX2 does not support M3U files.
 
@@ -87,7 +87,7 @@ You can manage multiple discs two ways:
 
 ### How to Switch to Folder Memory Cards
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 By default PCSX2 stores each memory card as a single file. This does not have any compatibility problems, but means that once you hit the 8MB limit you will have to start manually swapping cards. You can get around this by converting to folders for your memory cards:
 
@@ -106,7 +106,7 @@ PCSX2 will now give each game its own separate memory card automatically.
 
 ### How to Enable Big Picture Mode
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 - [Big Picture Mode: ES-DE](#big-picture-mode-es-de)
 - [Big Picture Mode: Pegasus](#big-picture-mode-pegasus)
@@ -160,7 +160,7 @@ PCSX2 will now give each game its own separate memory card automatically.
 
 ### How to Use Cheats
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 **Important**
 
@@ -235,7 +235,7 @@ For an example of a full cheat file with a header: [https://gist.githubuserconte
 1. Click the frowny face
 2. Toggle the `Enable Cheats` button
 3. Toggle the cheats you would like to use
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d93ef4b4-d451-48f1-a722-822e679eee3b" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d93ef4b4-d451-48f1-a722-822e679eee3b" height="300">
 4. Repeat as needed
 
 #### If you are using the Desktop GUI:
@@ -243,14 +243,14 @@ For an example of a full cheat file with a header: [https://gist.githubuserconte
 1. Click `Cheats` on the left
 2. Check `Enable Cheats` at the top
 3. Toggle the cheats you would like to use
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/e389b41e-b055-412e-96d1-53795b3a19f4" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/e389b41e-b055-412e-96d1-53795b3a19f4" height="300">
 4. Repeat as needed
 
 ---
 
 ### How to Use Widescreen or No Interlace Cheats
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 **Important**
 
@@ -265,28 +265,28 @@ For more detail, read [https://forums.pcsx2.net/Thread-Sticky-Important-Patching
 3. Click `View` at the top, click `Game List`
 4. Right click a game, click `Properties`
 5. Click `Patches` on the left, and check the `Enabled` box for the respective cheats you would like to enable
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/1df8bae8-219d-4c69-85ae-df9c604a5f47" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/1df8bae8-219d-4c69-85ae-df9c604a5f47" height="300">
 
 ---
 
 ### How to Set Game Settings On a Per-Game Basis
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 1. In either Desktop or Game Mode, open PCSX2
 2. (Optional) Exit out of PCSX2's big picture mode by clicking the square box in the top right
-   - <img src="https://user-images.githubusercontent.com/108900299/233122295-4c29bd44-e71c-4fbf-8e5a-7839d1eb80fb.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/233122295-4c29bd44-e71c-4fbf-8e5a-7839d1eb80fb.png" height="300">
 3. Right click a game
    - In Game Mode, hold `Steam` and click `L2` to right click
 4. Click `Properties`
-   - <img src="https://user-images.githubusercontent.com/108900299/233122582-9f29a2aa-6d61-4a10-ad01-0914954907ea.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/233122582-9f29a2aa-6d61-4a10-ad01-0914954907ea.png" height="300">
 5. Select your settings, any settings changed in this menu will only be applied for this specific game
 
 ---
 
 ### How to Install Custom Textures
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 **Texture Pack Sources**
 
@@ -309,10 +309,10 @@ Do note that the Game ID may vary depending on the region or version of your ROM
 4. Right click the game
 5. Click `Game Properties`
 6. Click `Graphic Settings`
-   - <img src="https://user-images.githubusercontent.com/108900299/232942780-09e56c2b-53d1-4d11-aee2-e9add3e9d15b.png" height="30">
+   <img src="https://user-images.githubusercontent.com/108900299/232942780-09e56c2b-53d1-4d11-aee2-e9add3e9d15b.png" height="30">
 7. Scroll down to `Texture Replacements` and toggle `Load Textures`
    - Optionally, toggle `Asynchronous Texture Loading`
-   - <img src="https://user-images.githubusercontent.com/108900299/232942987-8c49715d-3ff6-441a-90f2-507fde73a58a.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/232942987-8c49715d-3ff6-441a-90f2-507fde73a58a.png" height="300">
 8. The custom texture pack will now be enabled for this game
    - If you do not see custom textures loading, you can bind a "Texture Replacements" hotkey and toggle the texture pack on and off to see if it is loading. If the texture pack is not loading, you either have a mismatching ROM or the texture pack is out of date.
 
@@ -320,7 +320,7 @@ Do note that the Game ID may vary depending on the region or version of your ROM
 
 ### How to Mod Persona 3 FES
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 **Prerequisites**
 
@@ -334,7 +334,7 @@ Do note that the Game ID may vary depending on the region or version of your ROM
 2. Build a mod loadout: [https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html](https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html)
    - This guide will not go into detail on how to do this
 3. Your mod loadout will look similar to the below image:
-   - <img src="https://user-images.githubusercontent.com/108900299/209884556-357ce98f-3e43-45ca-8c19-5bcd2c46630f.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/209884556-357ce98f-3e43-45ca-8c19-5bcd2c46630f.png" height="300">
 4. Proceed to the next section
 
 #### On the Steam Deck
@@ -343,7 +343,7 @@ Do note that the Game ID may vary depending on the region or version of your ROM
    - This is a recommendation, you may either use a different folder name or place the files directly into `Emulation/roms/ps2`
 2. Place your Persona 3 FES ISO in the `P3FES` folder
 3. Right click your Persona 3 FES ISO and click `Open with Ark`
-   - <img src="https://user-images.githubusercontent.com/108900299/209884682-8757752f-025a-4d12-aa7f-c4d1df88cc2d.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/209884682-8757752f-025a-4d12-aa7f-c4d1df88cc2d.png" height="300">
 4. Extract these files to `Emulation/roms/ps2/P3FES`
 5. Delete all of the extracted files except `SLUS_216.21`
 6. Rename `SLUS_216.21` to `Shin Megami Tensei - Persona 3 FES - Modded.ELF`
@@ -352,16 +352,16 @@ Do note that the Game ID may vary depending on the region or version of your ROM
 #### Setting up the Mod Folders on the Steam Deck
 
 1. Move your mod folders to the extracted Persona 3 FES Extracted ISO Folder, `Emulation/roms/ps2/P3FES`
-   - <img src="https://user-images.githubusercontent.com/108900299/222878348-24cb6ad3-ac9f-4554-b3d7-e121fb5973e8.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/222878348-24cb6ad3-ac9f-4554-b3d7-e121fb5973e8.png" height="300">
 
 #### Setting up PCSX2
 
 1. In Desktop Mode, Open PCSX2
 2. Right click `SLUS_216.21` in the game list, click `Properties`
 3. Enable `Cheats` and `Host Filesystem`
-   - <img src="https://user-images.githubusercontent.com/108900299/209885037-cbd110a8-9091-4b7e-9902-ada8ed860ea3.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/209885037-cbd110a8-9091-4b7e-9902-ada8ed860ea3.png" height="300">
 4. On the `Disc Path` field, select your Persona 3 FES ISO
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d14fc18c-7f95-4640-ba45-2e5e4d03aab1" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d14fc18c-7f95-4640-ba45-2e5e4d03aab1" height="300">
 
 #### Setting up Cheats
 
@@ -381,17 +381,17 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 1. In Desktop Mode, open Steam ROM Manager
 2. Select the PCSX2 parser on the left and add `|.ELF` to the end of the `User's glob` box. Click `Save` in the bottom left
    - You may need to change themes to `Deck` or `Classic` first in the `Settings` tab
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/a4fb0a11-476e-4690-8d8d-f1377c6c9330" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/a4fb0a11-476e-4690-8d8d-f1377c6c9330" height="300">
 3. Turn on the PCSX2 parser and parse your games
 4. You will see a large amount of seemingly junk entries from your mod folder, this is expected behavior. You can identify what each entry is by hovering over the text in the top left
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/3fa607c6-7545-4410-8d3d-7274bfd89826" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/3fa607c6-7545-4410-8d3d-7274bfd89826" height="300">
 5. Click the `Exclude` button at the bottom
 6. Select all of the entries generated from your mod folder as well as the Persona 3 FES entry and click `Save` in the top right
    - **Do not** exclude `Shin Megami Tensei - Persona 3 FES - Modded.ELF`
 7. If `Shin Megami Tensei - Persona 3 FES - Modded.ELF` does not match properly, read Steps 8-10. If it matches properly, skip to Step 11
 8. On the `Shin Megami Tensei - Persona 3 FES - Modded.ELF` entry, click the magnifying glass in the bottom left
 9. Search for `Persona 3 FES` in the search box, select it, and click `Save and close`
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/1dbbccb4-0bd3-45ec-a2d7-2f13f622e521" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/1dbbccb4-0bd3-45ec-a2d7-2f13f622e521" height="300">
 10. Click `Save to Steam`
 11. You can now launch a modded version of Persona 3 FES directly in `Game Mode`
 
@@ -404,7 +404,7 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 
 ### How to Roll Back PCSX2 to an Older Version
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 #### Preface
 
@@ -428,7 +428,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 ### How to Configure Language Settings
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 #### UI
 
@@ -453,7 +453,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 ### How to Configure Pressure Sensitive Buttons
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 The `S` button on the keyboard is bound out of the box as a pressure modifier. To apply it to your PCSX2 games, you will need to use Steam Input.
 
@@ -487,7 +487,7 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 
 ### How to Configure Online Multiplayer
 
-[Back to the Top](#pcsx2-qt-table-of-contents)
+
 
 PCSX2 Servers:
 

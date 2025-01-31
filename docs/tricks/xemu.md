@@ -6,7 +6,7 @@
 
 ### How to Convert ROMs to XISO Format
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 #### List of Methods
 
@@ -21,7 +21,7 @@
 
 ##### Method 1: Use the xiso Website (Steam Deck)
 
-[Back to the Top](#list-of-methods)
+
 
 Instructions provided on website.
 
@@ -36,7 +36,7 @@ Instructions provided on website.
 
 ##### Method 2: Use XDVDMulleter (Windows)
 
-[Back to the Top](#list-of-methods)
+
 
 Link: [https://archive.org/details/xdvdmulleterv10.2beta](https://archive.org/details/xdvdmulleterv10.2beta)
 
@@ -48,7 +48,7 @@ Link: [https://archive.org/details/xdvdmulleterv10.2beta](https://archive.org/de
 
 ##### Method 3: extract-iso (Windows)
 
-[Back to the Top](#list-of-methods)
+
 
 Link: [https://github.com/XboxDev/extract-xiso](https://github.com/XboxDev/extract-xiso)
 
@@ -69,7 +69,7 @@ Xemu's Tutorial: [https://xemu.app/docs/disc-images/](https://xemu.app/docs/disc
 
 ##### Method 4: extract-iso (Linux)
 
-[Back to the Top](#list-of-methods)
+
 
 Note: Cannot be _built_ on the Steam Deck, but can be built elsewhere and copied. Then, it is usable on Steam Deck.
 
@@ -102,7 +102,7 @@ Note: Cannot be _built_ on the Steam Deck, but can be built elsewhere and copied
 
 ##### Method 5: extract-iso (Mac)
 
-[Back to the Top](#list-of-methods)
+
 
 1. ⁠Open terminal
 2. In terminal type the following: `Xcode-select --install`
@@ -116,7 +116,7 @@ Note: Cannot be _built_ on the Steam Deck, but can be built elsewhere and copied
 
 ##### Method 6: dd (Linux)
 
-[Back to the Top](#list-of-methods)
+
 
 **Note:** May not work on Steam Deck, needs testing.
 
@@ -126,7 +126,7 @@ Refer to Xemu's wiki for instructions, [https://xemu.app/docs/disc-images/#about
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 Xemu comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
 
@@ -145,7 +145,7 @@ Xemu comes with a nifty auto-map feature that makes setting up multiplayer a bre
 
 ### How to Apply Zink
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 #### Preface
 
@@ -165,21 +165,21 @@ Read one of the below sections to learn how to apply Zink to your Xbox games.
 
 #### How to Apply Zink to ES-DE Games
 
-[Back to the Top](#how-to-apply-zink)
+
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder
 2. Right click anywhere in the folder, click `Create New --> Text File`
-   - <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
 3. Match the name of the text file to the game you are applying Zink to and change the file extension to `.esprefix`
    - For example:
      - ROM Name: `Conker - Live & Reloaded.iso`
      - New text file name: `Conker - Live & Reloaded.esprefix`
-   - <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
 4. Open the newly created text file in Kate or a text editor of your choice
 5. On a single line, write:
    - `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink`
    - Example:
-     - <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
+     <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
 6. Zink will now be applied to this specific game in ES-DE, repeat for each game you would like to apply Zink
 
 #### How to Apply Zink to Pegasus Games
@@ -204,22 +204,22 @@ Read one of the below sections to learn how to apply Zink to your Xbox games.
 
 #### How to Apply Zink to Steam ROM Manager Shortcuts
 
-[Back to the Top](#how-to-apply-zink)
+
 
 1. In Desktop Mode, open Steam
 2. Select an Xbox Game shortcut in Steam
 3. Click the `Gear` icon
-   - <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
 4. Click `Properties`
 5. In the `Launch Options` box, enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink %command%`
-   - <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
 6. Zink will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply Zink
 
 ---
 
 ### vs_position_always_invariant=true
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 For more information on what `vs_position_always_invariant=true` is, see [https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b577f2a887968483b88b629673d3f9904a179ff](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b577f2a887968483b88b629673d3f9904a179ff).
 
@@ -237,12 +237,12 @@ Read one of the below sections to learn how to apply Zink to your Xbox games.
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder
 2. Right click anywhere in the folder, click `Create New --> Text File`
-   - <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
 3. Match the name of the text file to the game you are applying `vs_position_always_invariant=true` to and change the file extension to `.esprefix`
    - For example:
      - ROM Name: `Conker - Live & Reloaded.iso`
      - New text file name: `Conker - Live & Reloaded.esprefix`
-   - <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
 4. Open the newly created text file in Kate or a text editor of your choice
 5. On a single line, write:
    - `vs_position_always_invariant=true`
@@ -273,7 +273,7 @@ Read one of the below sections to learn how to apply Zink to your Xbox games.
 1. In Desktop Mode, open Steam
 2. Select an Xbox Game shortcut in Steam
 3. Click the `Gear` icon
-   - <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
 4. Click `Properties`
 5. In the `Launch Options` box, enter: `vs_position_always_invariant=true %command%`
 6. `vs_position_always_invariant=true` will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply `vs_position_always_invariant=true`
@@ -282,7 +282,7 @@ Read one of the below sections to learn how to apply Zink to your Xbox games.
 
 ### How to Access Saves
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 Your save files are located here: `Emulation/storage/xemu/xbox_hdd.qcow2`
 
@@ -296,7 +296,7 @@ Follow the instructions here: [https://xemu.app/docs/ftp/](https://xemu.app/docs
 
 ### How to Roll Back Xemu to an Older Version
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -323,7 +323,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#xemu-table-of-contents)
+
 
 #### In-Game
 

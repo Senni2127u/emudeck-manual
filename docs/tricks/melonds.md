@@ -6,7 +6,7 @@
 
 ### Open Source BIOS
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 The open source BIOS is **enabled by default** for melonDS. This means that BIOS for Nintendo DS games is **optional**. However, some games may not perform as expected with the open source BIOS or you may need additional features provided by console dumped BIOS. You may also prefer to use DSI BIOS which allow you to play DSIWare games.
 
@@ -18,7 +18,7 @@ In order to use console dumped BIOS, you may place the files required into the `
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 This section is strictly referring to local multiplayer. melonDS multiplayer on the Steam Deck can only be done in Desktop Mode.
 
@@ -38,7 +38,7 @@ You can determine which melonDS window corresponds to what player by looking at 
 
 ### How to Configure Settings
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 #### Game Mode
 
@@ -60,7 +60,7 @@ In Desktop Mode, open melonDS. Adjust any options to your liking. In the top rig
 
 ### How to Use Cheats
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 **Note:** melonDS does not currently support importing cheats from a database file.
 
@@ -69,7 +69,7 @@ In Desktop Mode, open melonDS. Adjust any options to your liking. In the top rig
 1. Open melonDS
 2. Click `System` at the top
 3. Check `Enable cheats`
-   - <img src="https://user-images.githubusercontent.com/108900299/220514789-7511568d-4806-4528-8521-ea1d6e35b989.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/220514789-7511568d-4806-4528-8521-ea1d6e35b989.png" height="300">
 
 #### How to Download the Cheats Database
 
@@ -106,7 +106,7 @@ In Desktop Mode, open melonDS. Adjust any options to your liking. In the top rig
 
 ### How to Set Up DSIWare
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 The Nintendo DSI requires DSI specific BIOS. Place **all** of the files from the list below **directly** in `Emulation/bios`.
 
@@ -164,7 +164,7 @@ Do note that your ROM may not have art on SteamGridDB or metadata on ES-DE's scr
 
 ### How to Play Nintendo DS Games in Book Mode
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 A handful of Nintendo DS games require portrait orientation. For these games, you will need to rotate the Steam Deck screen in order to play them. Fortunately, it's a simple process.
 
@@ -174,8 +174,8 @@ A handful of Nintendo DS games require portrait orientation. For these games, yo
    - [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, `Screen Rotation`, `270`
-   - <img src="https://user-images.githubusercontent.com/108900299/224400268-181fd70c-3ef1-470d-85ef-9a8897211958.png" height="300">
-   - <img src="https://user-images.githubusercontent.com/108900299/224400552-b53ddd81-c448-473e-9951-5003cb8b6b14.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/224400268-181fd70c-3ef1-470d-85ef-9a8897211958.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/224400552-b53ddd81-c448-473e-9951-5003cb8b6b14.png" height="300">
 
 ---
 
@@ -195,7 +195,7 @@ By default, EmuDeck configures melonDS' screens to use a hybrid layout, meaning 
    - [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile, and click `Select` + `R3`
 3. At the top, press `Config`, and use `Screen size`, `Screen rotation`, `Screen layout`, `Screen sizing`, and `Aspect Ratio` to customize your layout
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">
 4. When you are finished playing your game, click `Select` + `R3` again. In the top right, click `File`, click `Quit`. If you use the `STEAM` button to exit out of the game, any changes you have made **will not** be saved
 
 The `Screen layout` is where you can find the `Hybrid layout` option. Here, you can swap to `Natural`, `Vertical`, `Horizontal`, and `Hybrid`.
@@ -233,7 +233,7 @@ If you configured the settings and you decide you would like to reset to EmuDeck
 
 ### How to Roll Back melonDS to an Older Version
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -260,7 +260,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#melonds-table-of-contents)
+
 
 #### In-Game
 

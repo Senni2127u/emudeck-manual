@@ -1,12 +1,22 @@
 # <img src="/assets/emulators/citron.png" alt="EmuDeck guide" width="80" style="vertical-align: middle"> Citron Tips and Tricks
 
+!!! warning "How to install this emulator"
+
+    EmuDeck won't install nor provide this emulator, but it will help you set it up for ESDE or SRM, make sure you have your emulator in your emulators folder before going to Manage Emulator -> ==Reset settings== to apply EmuDeck's configuration
+
+    === "SteamOS / Linux"
+
+        ==$HOME/Applications/citron.AppImage== **Case sensitive**
+
+    === "Windows"
+
+        ==AppData/EmuDeck/Emulators/citron/citron.exe==
+
 [TOC]
 
 ---
 
 ### How to Configure Gyro
-
-[Back to the Top](#citron-table-of-contents)
 
 Gyro for Citron requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
@@ -47,8 +57,6 @@ If that still does not resolve the issue, you can take a look in the Citron sett
 
 ### How to Configure Gyro With External Controllers
 
-[Back to the Top](#citron-table-of-contents)
-
 #### Desktop Mode
 
 1. Switch to Desktop Mode
@@ -61,7 +69,7 @@ If that still does not resolve the issue, you can take a look in the Citron sett
    - Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
    - You may also connect an external keyboard and mouse
 3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
 4. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
    - You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
 5. Click the `Upside Down` configuration under `Orientation`
@@ -84,11 +92,11 @@ If that still does not resolve the issue, you can take a look in the Citron sett
 1. In Game Mode, connect your controller
 2. Select your Nintendo Switch game
 3. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 4. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 5. Click the `Gear` icon to the right, and click `Disable Steam Input`
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
    - You may need to restart first for this setting to properly apply
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
@@ -111,9 +119,9 @@ To restore the default Steam Deck controls:
 
 1. Select your Nintendo Switch game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -122,15 +130,11 @@ To restore the default Steam Deck controls:
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#citron-table-of-contents)
-
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
 ---
 
 ### How to Configure Multiplayer
-
-[Back to the Top](#citron-table-of-contents)
 
 Multiplayer for Citron is configured out of the box, no additional configuration is needed.
 
@@ -139,8 +143,6 @@ You may need to re-arrange the controller order in Game Mode for your controller
 ---
 
 ### How to Install Mods
-
-[Back to the Top](#citron-table-of-contents)
 
 **Mod Resources**
 
@@ -230,8 +232,6 @@ Faster Battles
 
 ### Special Game Configurations
 
-[Back to the Top](#citron-table-of-contents)
-
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location.
 
 To submit or view special game configurations, see [Special Game Configurations](../../community-creations/steamos/community-game-configurations.md#citron-nintendo-switch).
@@ -243,8 +243,6 @@ To submit or view special game configurations, see [Special Game Configurations]
 ---
 
 ### How to Set Up Early Access
-
-[Back to the Top](#citron-table-of-contents)
 
 EmuDeck 2.1 added an option to enable Citron (Early Access).
 
@@ -260,8 +258,6 @@ EmuDeck 2.1 added an option to enable Citron (Early Access).
 ---
 
 ### How to Roll Back Citron to an Older Version
-
-[Back to the Top](#citron-table-of-contents)
 
 #### Preface
 
@@ -285,8 +281,6 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 ### How to Select Between Citron and Ryujinx in Game Mode
 
-[Back to the Top](#citron-table-of-contents)
-
 If you are using Steam ROM Manager and would like to run some games through Citron and others through Ryujinx, you may use Steam ROM Manager's exception manager to selectively run your games in your preferred emulator.
 
 For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Parser Basis](../../tools/steamos/steam-rom-manager.md#how-to-hide-roms-on-a-per-parser-basis).
@@ -298,8 +292,6 @@ For further instructions, see [ES-DE: How to Select a Different Emulator on a Pe
 ---
 
 ### How to Configure Language Settings
-
-[Back to the Top](#citron-table-of-contents)
 
 #### UI
 

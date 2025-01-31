@@ -6,7 +6,7 @@
 
 ### Maintaining ROM Versions
 
-[Back to the Top](#mame-table-of-contents)
+
 
 Ideally use ROMs that are the same version as MAME's version. MAME often releases improved versions of ROMs to fix issues. Issues are less of a concern with the most popular classics because most of those haven't changed in years. But to avoid having to track multiple different versions of your ROMs, most people just keep their ROM sets updated as the emulator updates.
 
@@ -22,7 +22,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#mame-table-of-contents)
+
 
 Multiplayer for MAME is configured out of the box, no additional configuration is needed.
 
@@ -32,13 +32,13 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 ### How to Determine if a ROM Requires BIOS
 
-[Back to the Top](#mame-table-of-contents)
+
 
 Some ROMs for MAME may require BIOS to run. For this section, these ROMs will be split into either `System` or `Software` ROMs. To delineate between the two simply, `System` ROMs are typically arcade ROMs and `Software` ROMs are usually computers or video game consoles.
 
 #### How to Determine if a System ROM Requires BIOS
 
-[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
+
 
 1. In a folder of your choice, right click anywhere in the folder, and click `Open Terminal here`
 2. Enter:
@@ -61,7 +61,7 @@ Recreating this file whenever MAME updates will get you the latest list of which
 
 #### How to Determine if a Software ROM Requires BIOS
 
-[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
+
 
 1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 2. Search for the name of the console or computer in the search box, respecting punctuation and hyphenation when possible
@@ -72,7 +72,7 @@ Recreating this file whenever MAME updates will get you the latest list of which
 
 ##### How to View Compatibility for Software ROMs
 
-[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
+
 
 1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 2. Click `SOFTWARE` on the left side
@@ -88,7 +88,7 @@ Recreating this file whenever MAME updates will get you the latest list of which
 
 ### How to Determine if a ROM Requires a CHD File
 
-[Back to the Top](#mame-table-of-contents)
+
 
 Game ROMs for MAME are primarily `.zip` files. Some of these games require additional files to run. These additional files are primarily `.chd` files.
 
@@ -115,7 +115,7 @@ To determine if your ROM requires a `.chd` file:
 
 ### How to Configure Controls on a Per Game Basis
 
-[Back to the Top](#mame-table-of-contents)
+
 
 1. While in game, press `STEAM` and `DPad Down`
 2. Select `Input Settings`
@@ -130,7 +130,7 @@ To determine if your ROM requires a `.chd` file:
 
 ### How to Add Custom Bezels
 
-[Back to the Top](#mame-table-of-contents)
+
 
 1. Open `Emulation/storage/mame`
 2. Copy bezel files, in .zip format, into this folder, named the same as the ROM.
@@ -144,7 +144,7 @@ To determine if your ROM requires a `.chd` file:
 
 ### How to Enable Shaders/Scanlines in MAME (Standalone)
 
-[Back to the Top](#mame-table-of-contents)
+
 
 1. In Desktop Mode, open `/home/deck/.mame/mame.ini`
    - `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
@@ -161,7 +161,7 @@ To determine if your ROM requires a `.chd` file:
 
 ### How to Configure MAME to Work With EmulationStation-DE
 
-[Back to the Top](#mame-table-of-contents)
+
 
 EmuDeck installs both MAME (Standalone, installed as a flatpak), and RetroArch's MAME core.
 
@@ -180,7 +180,7 @@ In order to use MAME (Standalone) for EmulationStation-DE, make sure you are sel
 
 ### How to Roll Back MAME to an Older Version
 
-[Back to the Top](#mame-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -207,7 +207,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#mame-table-of-contents)
+
 
 #### UI
 
@@ -220,7 +220,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Use Cheats
 
-[Back to the Top](#mame-table-of-contents)
+
 
 1. Download the latest cheat package from [https://www.mamecheat.co.uk/](https://www.mamecheat.co.uk/). Click the `XML/JSON Cheat Collection for MAME 0.###` at the top to download the latest cheat package
    - `###` matches the MAME version of the cheat package which may vary depending on when you visit the site
@@ -234,7 +234,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Light Gun Games
 
-[Back to the Top](#mame-table-of-contents)
+
 
 1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
 2. Click the `Templates` tab

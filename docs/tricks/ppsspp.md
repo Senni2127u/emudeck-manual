@@ -6,7 +6,7 @@
 
 ### How to Install Custom Textures
 
-[Back to the Top](#ppsspp-table-of-contents)
+
 
 **Preface**
 
@@ -101,7 +101,7 @@ Typically, the shader packs linked above will include a master INI file which wi
 
 ### How to Use Cheats
 
-[Back to the Top](#ppsspp-table-of-contents)
+
 
 **Preface**
 
@@ -167,7 +167,7 @@ _This list is not exhaustive_
 
 ### How to Roll Back PPSSPP to an Older Version
 
-[Back to the Top](#ppsspp-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -194,7 +194,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Use the Original PSP Font
 
-[Back to the Top](#ppsspp-table-of-contents)
+
 
 Legally, PPSSPP cannot use the original PPSSPP font and instead uses an open source font, "Roboto-Condensed". However, switching to the original PPSSPP font is easy.
 
@@ -211,7 +211,7 @@ Before proceeding with the below steps, dump the original font from a PSP. You c
 
 ### How to Configure Language Settings
 
-[Back to the Top](#ppsspp-table-of-contents)
+
 
 #### UI
 

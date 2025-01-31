@@ -6,7 +6,7 @@
 
 ### How to Configure Gyro
 
-[Back to the Top](#citra-table-of-contents)
+
 
 Gyro for Citra requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
@@ -16,7 +16,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 
 ### How to Configure Gyro With External Controllers
 
-[Back to the Top](#citra-table-of-contents)
+
 
 #### Desktop Mode
 
@@ -30,7 +30,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
    - Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
    - You may also connect an external keyboard and mouse
 3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
 4. Open Citra
 5. Click `Emulation` at the top, click `Configure`
 6. Click `Controls` on the left
@@ -47,11 +47,11 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 1. In Game Mode, connect your controller
 2. Select your Nintendo 3DS game
 3. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 4. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 5. Click the `Gear` icon to the right, and click `Disable Steam Input`
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
    - You may need to restart first for this setting to properly apply
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
@@ -69,9 +69,9 @@ To restore the default Steam Deck controls:
 
 1. Select your Nintendo 3DS game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -80,7 +80,7 @@ To restore the default Steam Deck controls:
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#citra-table-of-contents)
+
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
@@ -88,7 +88,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 ### How to Install Custom Textures
 
-[Back to the Top](#citra-table-of-contents)
+
 
 Here's how to install custom textures for Citra:
 
@@ -96,7 +96,7 @@ Here's how to install custom textures for Citra:
 
 1. In Desktop Mode, open Citra
 2. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
-   - <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
 
 **Note:** `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
 
@@ -121,7 +121,7 @@ Here's how to install custom textures for Citra:
 
 ### How to Use Cheats
 
-[Back to the Top](#citra-table-of-contents)
+
 
 **Cheat Sources**
 
@@ -133,21 +133,21 @@ _This list is not exhaustive_
 
 1. In Desktop Mode, open Citra
 2. Right click a game of your choice, click `Properties`
-   - <img src="https://user-images.githubusercontent.com/108900299/236593492-91df7ce3-efae-4bb7-a559-7c252637a2e4.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/236593492-91df7ce3-efae-4bb7-a559-7c252637a2e4.png" height="300">
 3. Click the `Cheats` tab
-   - <img src="https://user-images.githubusercontent.com/108900299/236593531-c045ab6e-3779-4c5a-b6ce-0af4a243f121.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/236593531-c045ab6e-3779-4c5a-b6ce-0af4a243f121.png" height="300">
 4. Click `Add Cheat`
 5. Name the cheat and add the code to the box under `Code:`
-   - <img src="https://user-images.githubusercontent.com/108900299/236593755-85163908-cc80-4684-a343-01f180f14365.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/236593755-85163908-cc80-4684-a343-01f180f14365.png" height="300">
 6. Click Save in the top right
 7. Check the box to the left of the cheat to enable it
-   - <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300">
 
 ---
 
 ### How to Roll Back Citra to an Older Version
 
-[Back to the Top](#citra-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -173,7 +173,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#citra-table-of-contents)
+
 
 #### UI
 

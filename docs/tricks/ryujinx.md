@@ -6,7 +6,7 @@
 
 ### How to Configure Gyro
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 Gyro for Ryujinx requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
@@ -16,7 +16,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 
 ### How to Configure Gyro With External Controllers
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 1. Switch to Desktop Mode
 2. Exit out of Steam
@@ -28,7 +28,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
    - Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
    - You may also connect an external keyboard and mouse
 3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
 4. Open Ryujinx
 5. Click `Options` at the top, click `Settings`
 6. Click the `Input` tab on the top
@@ -43,11 +43,11 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 14. In Game Mode, connect your controller
 15. Select your Nintendo Switch game
 16. On the `Play` screen, select the `Controller` icon to the right of the screen
-    - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+    <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 17. Select your controller tab at the top
-    - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+    <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 18. Click the `Gear` icon to the right, and click `Disable Steam Input`
-    - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
     - You may need to restart first for this setting to properly apply
 19. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
@@ -69,9 +69,9 @@ To restore the default Steam Deck controls:
 
 1. Select your Nintendo Switch game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -80,7 +80,7 @@ To restore the default Steam Deck controls:
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
@@ -88,7 +88,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
 
@@ -114,7 +114,7 @@ Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a 
 
 ### How to Install Mods
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 **Mod Resources**
 
@@ -167,7 +167,7 @@ mod_directory
 
 ### Special Characters
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 Files with special characters in the ROM name will not launch from steam. Rename your ROMs and remove the special character.
 
@@ -191,7 +191,7 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 ### How to Roll Back Ryujinx to an Older Version
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 #### Preface
 
@@ -215,7 +215,7 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 
 ### How to Select Between Yuzu and Ryujinx in Game Mode
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 If you are using Steam ROM Manager and would like to run some games through Yuzu and others through Ryujinx, you may use Steam ROM Manager's exception manager to selectively run your games in your preferred emulator.
 
@@ -229,7 +229,7 @@ For further instructions, see [ES-DE: How to Select a Different Emulator on a Pe
 
 ### How to Configure Language Settings
 
-[Back to the Top](#ryujinx-table-of-contents)
+
 
 #### UI
 

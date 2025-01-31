@@ -6,7 +6,7 @@
 
 ### HLE BIOS
 
-[Back to the Top](#flycast-table-of-contents)
+
 
 HLE BIOS is **enabled by default** for Dreamcast games. BIOS for Dreamcast games is **optional**. However, some games may not perform as expected with the HLE BIOS or you may need additional features provided by console dumped BIOS.
 
@@ -18,7 +18,7 @@ In order to use console dumped BIOS, you may place the files required into the `
 
 ### How to Install Custom Textures
 
-[Back to the Top](#flycast-table-of-contents)
+
 
 **Texture Pack Sources**
 
@@ -37,7 +37,7 @@ _This list is not exhaustive_
 
 ### How to Configure the Sega Dreamcast Microphone
 
-[Back to the Top](#flycast-table-of-contents)
+
 
 For a full list of games that used the Sega Dreamcast Microphone, see [https://segaretro.org/Dreamcast_Microphone](https://segaretro.org/Dreamcast_Microphone).
 
@@ -60,7 +60,7 @@ To set this on a per-game setting:
 
 ### How to Configure Light Gun Games
 
-[Back to the Top](#flycast-table-of-contents)
+
 
 #### Flycast Controls
 

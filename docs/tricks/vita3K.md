@@ -6,7 +6,7 @@
 
 ### How to Configure Vita3K to Work With ES-DE and Pegasus
 
-[Back to the Top](#vita3k-table-of-contents)
+
 
 **Note:** This section requires you to install your PlayStation Vita games first through Vita3K. At this time, ES-DE and Pegasus only support launching installed PSVita games.
 
@@ -14,15 +14,15 @@
 2. Right click a game of your choice, and click `Copy app info` --> `Title ID`
    - You may also click `Information` to see the `Title ID`
    - Example 1:
-     - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/acf8a386-da99-4700-a6eb-af4cefd502c9" height="300">
+     <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/acf8a386-da99-4700-a6eb-af4cefd502c9" height="300">
    - Example 2:
-     - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/67c7a8ed-be17-4d45-a327-60489471bba1" height="300">
+     <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/67c7a8ed-be17-4d45-a327-60489471bba1" height="300">
 3. In `Emulation/roms/psvita`, right click, `Create New - Text File`
 4. Name it `GAMENAME.psvita`
    - The name of the file is primarily for identifying it in ES-DE and Pegasus and scraping
 5. Open the text file in Kate or a text editor of your choice and paste the `Title ID` from Step 1 on a single line
    - Using `Tales of Heart R` as an example:
-     - <img src="https://user-images.githubusercontent.com/108900299/196052342-6957f67d-d31c-4479-b4fa-7456d74c085c.png" height="300">
+     <img src="https://user-images.githubusercontent.com/108900299/196052342-6957f67d-d31c-4479-b4fa-7456d74c085c.png" height="300">
 6. Save the text file and exit out
 7. Repeat for each PlayStation Vita ROM
 8. Your game should now show up in and launch directly from ES-DE and Pegasus
@@ -33,7 +33,7 @@ For additional detail, read ES-DE's section on Vita3K: [https://gitlab.com/es-de
 
 ### How to Configure Gyro With External Controllers
 
-[Back to the Top](#vita3k-table-of-contents)
+
 
 **Supported Games**
 
@@ -65,7 +65,7 @@ _This list is not comprehensive_
    - Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
    - You may also connect an external keyboard and mouse
 3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
 4. Open Vita3K
 5. Click `Controls` at the top, click `Controllers`
 6. Make sure your external controller is listed here and that you see `Gamepad has motion support` at the bottom of this screen
@@ -78,11 +78,11 @@ _This list is not comprehensive_
 1. In Game Mode, connect your controller
 2. Select your PlayStation Vita game
 3. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 4. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 5. Click the `Gear` icon to the right, and click `Disable Steam Input`
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
    - You may need to restart first for this setting to properly apply
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
@@ -96,9 +96,9 @@ Once you disconnect your controller, your Steam Deck controls should work again.
 
 1. Select your PlayStation Vita game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -107,7 +107,7 @@ Once you disconnect your controller, your Steam Deck controls should work again.
 
 ### How to Install Custom Textures
 
-[Back to the Top](#vita3k-table-of-contents)
+
 
 **Texture Pack Sources**
 
@@ -142,7 +142,7 @@ _This list is not exhaustive_
 
 ### How to Install English Patches
 
-[Back to the Top](#vita3k-table-of-contents)
+
 
 **English Patch Sources**
 
@@ -187,7 +187,7 @@ This section will use the Tales of Innocence R English Patch as an example. Inst
 
 ### How to Configure Language Settings
 
-[Back to the Top](#vita3k-table-of-contents)
+
 
 #### UI
 

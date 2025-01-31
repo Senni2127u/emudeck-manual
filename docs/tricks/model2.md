@@ -6,7 +6,7 @@
 
 ### Which ROM Set Does Model 2 Emulator Use?
 
-[Back to the Top](#model-2-emulator-table-of-contents)
+
 
 Model 2 Emulator uses a merged ROM set.
 
@@ -14,7 +14,7 @@ Model 2 Emulator uses a merged ROM set.
 
 ### How to Configure Light Gun Games
 
-[Back to the Top](#model-2-emulator-table-of-contents)
+
 
 1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
 2. Click the `Templates` tab

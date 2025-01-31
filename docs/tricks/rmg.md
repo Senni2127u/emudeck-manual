@@ -6,7 +6,7 @@
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 EmuDeck configures multiplayer out of the box. You do not need to configure the controls. To set up multiplayer, you simply need to enable the additional ports.
 
@@ -31,7 +31,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 ### How to Install Custom Textures
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 #### Preface
 
@@ -69,7 +69,7 @@ _This list is not exhaustive_
 4. Click `Settings` at the top, select `Graphics`
 5. Click the `Texture enhancement` tab
 6. Make sure `Use file storage instead of memory cache` is unchecked
-   - <img src="https://user-images.githubusercontent.com/108900299/220504844-73ad1aae-9525-4e07-aa46-a47bcf953a8e.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/220504844-73ad1aae-9525-4e07-aa46-a47bcf953a8e.png" height="300">
    - This setting is unchecked by default
 
 ##### HTS
@@ -80,7 +80,7 @@ _This list is not exhaustive_
 4. Click `Settings` at the top, select `Graphics`
 5. Click the `Texture enhancement` tab
 6. Check `Use file storage instead of memory cache`
-   - <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
    - **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per-game profile
 
 ##### PNG
@@ -93,14 +93,14 @@ This section goes over enabling `file storage instead of memory cache` in RMG's 
 4. Click `Settings` at the top, select `Graphics`
 5. Click the `Texture enhancement` tab
 6. Check `Use file storage instead of memory cache`
-   - <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
+   <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
    - **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per-game profile
 
 ---
 
 ### How to Configure VRU
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 The VRU (Voice Recognition Unit) was a peripheral for the Nintendo 64 that allowed you to use a microphone in "Hey You, Pikachu!" and "Densha de Go! 64".
 
@@ -122,7 +122,7 @@ Since the Steam Deck comes with an internal built in microphone, you can use the
 
 ### How to Configure N64DD
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 The Nintendo 64DD was a floppy disk drive peripheral for the Nintendo 64.
 
@@ -185,7 +185,7 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 
 ### How to Use Cheats
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 #### Mid-Game
 
@@ -204,7 +204,7 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 
 ### How to Roll Back RMG to an Older Version
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -231,7 +231,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#rmg-table-of-contents)
+
 
 #### In-Game
 

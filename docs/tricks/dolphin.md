@@ -6,7 +6,7 @@
 
 ### How to Verify ROMs
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 If you have a ROM that is not launching, you can verify your ROM directly in Dolphin. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, your issue may be that your ROM either transferred incorrectly or that you have a bad dump.
 
@@ -29,7 +29,7 @@ If you have a good dump, your issue lies elsewhere. Make sure Dolphin is up to d
 
 ### How to Configure Gyro
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 Gyro for Dolphin requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
@@ -84,7 +84,7 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 
 ### How to Configure Gyro With External Controllers
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 #### Desktop Mode
 
@@ -98,7 +98,7 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
    - Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
    - You may also connect an external keyboard and mouse
 3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
 4. Open Dolphin
 5. Open the `Controllers` menu
 6. Select `Configure` to the right of `Wii Remote 1`
@@ -132,11 +132,11 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 1. In Game Mode, connect your controller
 2. Select your Wii game
 3. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 4. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 5. Click the `Gear` icon to the right, and click `Disable Steam Input`
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
    - You may need to restart first for this setting to properly apply
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
@@ -156,9 +156,9 @@ To restore the default Steam Deck controls:
 
 1. Select your Wii game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -167,7 +167,7 @@ To restore the default Steam Deck controls:
 
 ### How to Optimize Performance (Power Tools)
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
@@ -175,7 +175,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 ### How to Optimize Storage (Compression Tool)
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.
 
@@ -189,7 +189,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ### How to Manage Multiple Discs
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 M3U files can be used to manage multiple discs for Dolphin. With the `Change Discs Automatically` option toggled (turned on by default with EmuDeck), Dolphin will automatically switch discs in combination with an M3U file.
 
@@ -199,7 +199,7 @@ M3U files can be used to manage multiple discs for Dolphin. With the `Change Dis
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 EmuDeck configures multiplayer out of the box. You do not need to configure the controls. However, to properly set up multiplayer, you will need to enable the additional ports.
 
@@ -209,9 +209,9 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 2. Open the `Controller` settings
 3. For each controller you are using, including Player 1:
    - GameCube: To the right of each Port # under `GameCube Controllers`, enable `Standard Controller`
-     - <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
+     <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
    - Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
-     - <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
+     <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
 4. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 **Keep in Mind**
@@ -226,7 +226,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 ### How to Configure Multiplayer Controls
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 **IMPORTANT:** Multiplayer controllers are fully configured by EmuDeck. If you simply would like to set up multiplayer, see [How to Configure Multiplayer](#how-to-configure-multiplayer). You **do not** need this section if you are satisfied with the default control layout. This section covers how to reconfigure the controls for Players 2-4 if you would rather use a custom configuration.
 
@@ -287,7 +287,7 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ### How to Roll Back Dolphin to an Older Version
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -314,7 +314,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 #### UI
 
@@ -373,7 +373,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Enable HDR
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's how to enable it.
 
@@ -400,7 +400,7 @@ With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's 
 
 ### How to Switch Dolphin to the Development Branch
 
-[Back to the Top](#dolphin-table-of-contents)
+
 
 RetroAchievements was recently added to Dolphin but can only be used in the development branch until it has been tested thoroughly for public release.
 

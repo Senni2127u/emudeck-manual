@@ -6,7 +6,7 @@
 
 ### How to Configure RPCS3 to Work With ES-DE and Pegasus
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 ## AppImage
 
@@ -79,7 +79,7 @@ Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.m
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
 
@@ -106,7 +106,7 @@ RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a br
 
 ### Special Game Configurations
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 #### RPCS3 Wiki
 
@@ -120,7 +120,7 @@ Use the EmuDeck [Community Game Configurations](../../community-creations/steamo
 
 ### How to Set up the Motion Sensor with External Controllers
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 The PlayStation 3 controller, or the DualShock 3 notably had "Sixaxis". Sixaxis refers to the motion sensor used in a handful of games. One of the more popular games that utilized Sixaxis was Folklore. For a full list of games, see [https://www.giantbomb.com/sixaxis-support/3015-5310/games/](https://www.giantbomb.com/sixaxis-support/3015-5310/games/).
 
@@ -181,9 +181,9 @@ To restore the default Steam Deck controls:
 
 1. Select your PlayStation 3 game
 2. On the `Play` screen, select the `Controller` icon to the right of the screen
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 3. Select your controller tab at the top
-   - <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+   <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
    - You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
@@ -192,7 +192,7 @@ To restore the default Steam Deck controls:
 
 ### How to Roll Back RPCS3 to an Older Version
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 #### AppImage
 
@@ -246,7 +246,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#rpcs3-table-of-contents)
+
 
 #### In-Game
 

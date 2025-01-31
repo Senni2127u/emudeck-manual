@@ -6,7 +6,7 @@
 
 ### How to Optimize Storage (Compression Tool)
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.
 
@@ -20,7 +20,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ### How to Manage Multiple Discs
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 M3U files can be used to manage multiple discs for DuckStation. When the time comes to switch discs, use the Left Trackpad Touch Menu Hotkey. A full list of hotkeys and a tutorial on how to use Steam Input profiles can be found here: #hotkeys.
 
@@ -30,7 +30,7 @@ M3U files can be used to manage multiple discs for DuckStation. When the time co
 
 ### How to Use Cheats
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 1. While in game, either: press `Start` and `R2` or use the left Trackpad and select the `Quick Menu` icon
    - Steam Input profiles for PlayStation 1 ROMs and ES-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
@@ -41,7 +41,7 @@ M3U files can be used to manage multiple discs for DuckStation. When the time co
 
 ### How to Configure Multiplayer
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 Multiplayer for DuckStation is configured out of the box, no additional configuration is needed.
 
@@ -51,7 +51,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 ### How to Roll Back DuckStation to an Older Version
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 If you do not have access to a keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
 
@@ -78,7 +78,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ### How to Configure Language Settings
 
-[Back to the Top](#duckstation-table-of-contents)
+
 
 #### UI
 
