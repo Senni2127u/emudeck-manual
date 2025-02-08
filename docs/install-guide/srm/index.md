@@ -2,10 +2,6 @@
 
 Allows you to add your ROMs directly to your library as if they were Steam Games.
 
-!!! warning "Installation"
-
-    Since SRM can be hard to use it will only be installed in *Custom Mode* or through ==Manage Emulators==
-
 !!! info "Number of games"
 
     If you have a lot of ROMS it's recommended to use ES-DE instead of SRM
