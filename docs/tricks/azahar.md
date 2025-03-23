@@ -830,7 +830,7 @@ After following the prompts, you should now have access to the Nintendo EShop or
 * This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-setup-system-files) tab.
 * Do note that if you have a NNID installed for usage of Pokémon Bank or the Nintendo EShop, you may not be able to use features that require an ID via Pretendo Network, which right now, is Miiverse.
 
-1. Download the .cia version of Nimbus from the respective github. [https://github.com/PretendoNetwork/nimbus/releases](https://github.com/PretendoNetwork/nimbus/releases)
+1. Download the .cia version of Nimbus from the respective GitHub page. [https://github.com/PretendoNetwork/nimbus/releases](https://github.com/PretendoNetwork/nimbus/releases)
 
 2. Launch Azahar, go to File > Open Azahar Folder, and move both the luma and 3ds folder into the sdmc folder.
 
