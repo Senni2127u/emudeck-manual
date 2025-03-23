@@ -412,8 +412,10 @@ The Appimage executable for Azahar is stored in `Home/Applications`, the Windows
 
 ***
 
-### How to Create Custom Screen Layouts (SteamOS/Linux only)
+### How to Create Custom Screen Layouts.
 [Back to the Top](#azahar-table-of-contents)
+
+* (Instructions are SteamOS/Linux only)
 
 Use [https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/](https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/) to create custom layouts.
 
@@ -427,10 +429,12 @@ After you have created your custom layout, use the following steps to use it.
 
 ***
 
-### How to Configure Bottom Screen as PiP (SteamOS/Linux only)
+### How to Configure Bottom Screen as PiP
 [Back to the Top](#azahar-table-of-contents)
 
 Credit: `NexLevel`
+
+* (Instructions are SteamOS/Linux only)
 
 Azahar allows you to configure the bottom screen as a sort of PiP (Picture in Picture) overlay on the top screen, by editing the qt-config file. 
 
@@ -538,10 +542,12 @@ upright_screen\default=true
 
 ***
 
-### How to Configure Bottom Screen With PiP and Opacity (SteamOS/Linux only)
+### How to Configure Bottom Screen With PiP and Opacity
 [Back to the Top](#azahar-table-of-contents)
 
 Credit: `NexLevel`
+
+* (Instructions are SteamOS/Linux only)
 
 A previous update of Citra that Azahar has now used allows the ability to set the opacity on the bottom screen. In combination with setting the bottom screen as a PiP overlay, you can create a Azahar layout that looks like the following: 
 
@@ -652,7 +658,7 @@ upright_screen\default=true
 
 ***
 
-### How to Configure Bottom Screen as PiP in the Top Right Corner (SteamOS/Linux only)
+### How to Configure Bottom Screen as PiP in the Top Right Corner
 [Back to the Top](#azahar-table-of-contents)
 
 Picture: 
@@ -660,6 +666,8 @@ Picture:
 ![How to Configure Bottom Screen as PiP in the Top Right Corner](../../assets/how-to-configure-bottom-screen-as-pip-in-the-top-right-corner.png)
 
 Credit: `busywait`
+
+* (Instructions are SteamOS/Linux only)
 
 1. Open the folder: `/home/deck/.config/azahar-emu/`
     * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
