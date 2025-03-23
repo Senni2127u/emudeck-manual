@@ -764,9 +764,10 @@ upright_screen\default=true
 ***
 ### How to Set Up System Files
 
+* Do NOT share any files obtained with these steps, as it could get your system banned from Nintendo or Pretendo servers.
 * Make sure you have your Nintendo 3DS, as this process requires it.
 * To install New 3DS system software, you need to download Old 3DS software first, this is required for some situations (such as Pretendo Network), so it's best to download both.
-* The system used does not matter in this instance either, you can download New 3DS software with an old 3DS, and vice versa.
+* The system used does not matter in this instance, you can download New 3DS software with an old 3DS, and vice versa.
 
 1. Take out your SD Card and plug it into your PC.
 
