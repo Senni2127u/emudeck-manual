@@ -792,7 +792,7 @@ You should now have your system files ready to go.
 ### How to Set Up your Nintendo Network ID
 
 * Do note this process may make you unable to access certain features of Pretendo Network, such as Miiverse.
-* This process requires atleast Old 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how_to_setup_system_files) tab.
+* This process requires atleast Old 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-setup-system-files) section.
 
 1. Download ThreeSD from the respective GitHub page and for your OS: [https://github.com/zhaowenlan1779/threeSD/releases](https://github.com/zhaowenlan1779/threeSD/releases)
 
@@ -827,7 +827,7 @@ After following the prompts, you should now have access to the Nintendo EShop or
 
 ### How to Set Up Pretendo Network
 
-* This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how_to_setup_system_files) tab.
+* This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-setup-system-files) tab.
 * Do note that if you have a NNID installed for usage of Pokémon Bank or the Nintendo EShop, you may not be able to use features that require an ID via Pretendo Network, which right now, is Miiverse.
 
 1. Download the .cia version of Nimbus from the respective github. [https://github.com/PretendoNetwork/nimbus/releases](https://github.com/PretendoNetwork/nimbus/releases)
