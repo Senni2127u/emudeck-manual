@@ -148,9 +148,9 @@ azahar/
 **How to Update Azahar**
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
-* Manual file replacement of `azahar.AppImage` 
-    * Refer to [How to Swap Out AppImages and Binaries](../../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
-* Through the emulator GUI itself by launching the AppImage.
+* Manual file replacement of `azahar-gui.AppImage` or `azahar.exe`.
+    * AppImage can be replaced in `Home/Applications`, Windows executable and it's associated files can be replaced in `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar`.
+* Through the emulator GUI itself by launching the AppImage/Windows executable.
 
 
 ***
@@ -159,8 +159,8 @@ azahar/
 
 **How to Launch Azahar in Desktop Mode**
 
-* Launch `Azahar` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
-* Launch the script from `Emulation/tools/launchers`, `azahar.sh`
+* Launch `Azahar` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar or Windows icon)
+* Launch the script from `Emulation/tools/launchers`, `azahar.sh` (SteamOS/Linux only)
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
 
@@ -169,6 +169,7 @@ azahar/
 ### Azahar File Formats
 [Back to the Top](#azahar-table-of-contents)
 
+* .cia
 * .app 
 * .axf 
 * .cci 
@@ -179,7 +180,7 @@ azahar/
 
 * `.cia` can only be used if you install it through Azahar. **Do not** place your `.cia` ROMs in either the `Emulation/roms/3ds` or the `Emulation/roms/n3ds` folders. The .cia file format **is not** compatible with Steam ROM Manager and EmulationStation-DE.
 * `.3ds` and `.3dsx` are no longer supported, you will have to change the file extension to `.cci` to use the file with Azahar.
-* Encrypted ROMS are no longer supported, you must decrypt them with GodMode9 in order to use them.
+* Encrypted ROMS are no longer supported, you must decrypt them or dump the games with GodMode9 in order to use them.
 ***
 
 ### How to Manage DLC and Updates
@@ -210,7 +211,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 **Note** 
 
 * For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
-* If you would like to use touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
+* If you would like to use touch menus if your device supports it, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
@@ -227,8 +228,7 @@ If your game ever crashes or you exit the game by pressing the `STEAM` button an
 
 To clear the shader cache:
 
-1. In Desktop Mode, open the `/home/deck/.local/share/azahar-emu` folder
-    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. In Desktop Mode, open Azahar, File > Open Azahar Folder
 2. Delete the `shaders` folder
 3. Try your game again
 
@@ -277,7 +277,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 11. Click `OK` again and exit out of Azahar
 12. Switch to `Game Mode`
 
-#### Game Mode
+#### Game Mode/Big Picture Mode
 
 1. In Game Mode, connect your controller
 2. Select your Nintendo 3DS game 
@@ -327,7 +327,7 @@ Here's how to install custom textures for Azahar:
 
 #### Azahar Configuration
 
-1. In Desktop Mode, open Azahar
+1. Open Azahar directly.
 2. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
     * <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
 
@@ -335,12 +335,12 @@ Here's how to install custom textures for Azahar:
 
 #### How to Install Custom Textures
 
-**Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.local/share/azahar-emu/textures/`. You do not need the following section if this is the case.
+**Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.local/share/azahar-emu/textures/` or `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar\user`. You do not need the following section if this is the case.
 
-1. In Desktop Mode, open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser
+1. Open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser.
 2. Note down the `Title ID` for the game
     * For example, The Legend of Zelda: Majora's Mask 3D's (US) Title ID is: `0004000000125500` 
-3. Open `/home/deck/.local/share/azahar-emu/textures/`
+3. Open `/home/deck/.local/share/azahar-emu/textures/` or `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar/user`
     * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 4. In the `textures` folder from Step 3, create a folder matching the `TitleID` from Step 2
 5. Put your texture files directly into the `TitleID` folder you created in Step 4
@@ -382,7 +382,7 @@ _This list is not exhaustive_
 ### How to Roll Back Azahar to an Older Version
 [Back to the Top](#azahar-table-of-contents)
 
-The Appimage executable for Azahar is stored in `Home/Applications`, replace this file with the version you intend to use from the releases page: [https://github.com/azahar-emu/azahar/releases](https://github.com/azahar-emu/azahar/releases)
+The Appimage executable for Azahar is stored in `Home/Applications`, the Windows executable and it's associated files is stored in `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar`, replace these files with the version you intend to use from the releases page: [https://github.com/azahar-emu/azahar/releases](https://github.com/azahar-emu/azahar/releases)
 
 ***
 
@@ -391,7 +391,7 @@ The Appimage executable for Azahar is stored in `Home/Applications`, replace thi
 
 #### UI
 
-1. In Desktop Mode, open Azahar
+1. Open Azahar directly.
 2. At the top, click `Emulation`, click `Configure`
 3. On the left hand-side of the screen, click `General`
 4. Click the `UI` tab
@@ -399,7 +399,7 @@ The Appimage executable for Azahar is stored in `Home/Applications`, replace thi
 
 #### In-Game
 
-1. In Desktop Mode, open Azahar
+1. Open Azahar directly.
 2. At the top, click `Emulation`, click `Configure`
 3. On the left hand-side of the screen, click `System`
 4. Click the `System` tab
@@ -412,7 +412,7 @@ The Appimage executable for Azahar is stored in `Home/Applications`, replace thi
 
 ***
 
-### How to Create Custom Screen Layouts
+### How to Create Custom Screen Layouts (SteamOS/Linux only)
 [Back to the Top](#azahar-table-of-contents)
 
 Use [https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/](https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/) to create custom layouts.
@@ -427,7 +427,7 @@ After you have created your custom layout, use the following steps to use it.
 
 ***
 
-### How to Configure Bottom Screen as PiP
+### How to Configure Bottom Screen as PiP (SteamOS/Linux only)
 [Back to the Top](#azahar-table-of-contents)
 
 Credit: `NexLevel`
@@ -538,7 +538,7 @@ upright_screen\default=true
 
 ***
 
-### How to Configure Bottom Screen With PiP and Opacity
+### How to Configure Bottom Screen With PiP and Opacity (SteamOS/Linux only)
 [Back to the Top](#azahar-table-of-contents)
 
 Credit: `NexLevel`
@@ -652,7 +652,7 @@ upright_screen\default=true
 
 ***
 
-### How to Configure Bottom Screen as PiP in the Top Right Corner
+### How to Configure Bottom Screen as PiP in the Top Right Corner (SteamOS/Linux only)
 [Back to the Top](#azahar-table-of-contents)
 
 Picture: 
