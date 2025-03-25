@@ -34,10 +34,10 @@ Github: [https://github.com/azahar-emu/azahar/](https://github.com/azahar-emu/az
     - [How to Configure Bottom Screen With PiP and Opacity](#how-to-configure-bottom-screen-with-pip-and-opacity)
     - [How to Configure Bottom Screen as PiP in the Top Right Corner](#how-to-configure-bottom-screen-as-pip-in-the-top-right-corner)
 
-5. [Online Features](#azahar-online-features)
-    - [How to Set Up System Files](#how-to-setup-system-files)
-    - [How to Set Up your Nintendo Network ID](#how-to-setup-your-nintendo-network-id)
-    - [How to Set Up Pretendo Network](#how-to-setup-pretendo-network)
+5. [Online Features](#online-features)
+    - [How to Set Up System Files](#how-to-set-up-system-files)
+    - [How to Set Up your Nintendo Network ID](#how-to-set-up-your-nintendo-network-id)
+    - [How to Set Up Pretendo Network](#how-to-set-up-pretendo-network)
 
 ***
 
@@ -767,7 +767,7 @@ upright_screen=false
 upright_screen\default=true
 ```
 
-## Azahar's Online Features
+## Online Features
 
 ***
 ### How to Set Up System Files
