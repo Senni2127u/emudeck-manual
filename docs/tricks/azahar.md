@@ -1,11 +1,3 @@
-# Azahar is a Nintendo 3DS Emulator.
-
-Website: [https://azahar-emu.org/](https://azahar-emu.org/)
-
-Github: [https://github.com/azahar-emu/azahar/](https://github.com/azahar-emu/azahar)
-
-***
-
 ## Azahar Table of Contents
 
 1. [Getting Started with Azahar](#getting-started-with-azahar)
