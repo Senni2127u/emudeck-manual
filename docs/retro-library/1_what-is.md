@@ -29,11 +29,11 @@ Retro Library is a Decky plugin that creates a new way to launch your retro game
 
 ## Settings
 
-You can customise Retro Library by accesing the Decky menu by hitting the (...) button.
+You can customise Retro Library by accessing the Decky menu by hitting the (...) button.
 
 ### Recent Games
 
-When you launch a retro game a temporary non steam game is created and this will appear in your recient played games in the Steam Deck home. You can set the number of retro games you want to show from 1 to 8.
+When you launch a retro game a temporary non steam game is created and this will appear in your recent played games in the Steam Deck home. You can set the number of retro games you want to show from 1 to 8.
 
 ### Theme Selection
 
@@ -43,8 +43,15 @@ By default we mimic the Steam Deck interface so you can feel right at home, but 
 
 You can customise both the default and the retro Theme
 
-Horizontal navigation
-Games list - Show Logos
+**Horizontal navigation**
+Default is top to bottom navigation but you can change it with this option.
+
+**Games list - Show Logos**
+Leave unchecked if you want to see Box art of your games, check it to see a collage of screenshot + logo.
+
+!!! info "Tip"
+
+    Extra feature if you have Retro Theme and Show logos enabled, this will show customized themes for some systems.
 
 ## Screenshots
 
