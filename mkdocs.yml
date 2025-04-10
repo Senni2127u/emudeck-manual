@@ -140,6 +140,8 @@ nav:
           - Xemu: "tricks/xemu.md"
           - Xenia:: "tricks/xenia.md"
           - Yuzu: "tricks/yuzu.md"
+  - Retro Library (Open BETA):
+    - What's Retro Library?: "retro-library/1_what-is.md"
 
 markdown_extensions:
   - abbr
