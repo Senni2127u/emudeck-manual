@@ -1,4 +1,4 @@
-# <img src="/assets/emulators/citra.png" alt="EmuDeck guide" width="80" style="vertical-align: middle"> Azahar Tips and Tricks
+# <img src="/assets/emulators/azahar.png" alt="EmuDeck guide" width="80" style="vertical-align: middle"> Azahar Tips and Tricks
 
 [TOC]
 
