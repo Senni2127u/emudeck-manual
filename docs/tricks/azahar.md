@@ -1,35 +1,4 @@
-## Azahar Table of Contents
-
-1. [Getting Started with Azahar](#getting-started-with-azahar)
-    - [Configuration](#azahar-configuration)
-    - [Azahar Folder Locations](#azahar-folder-locations)
-    - [How to Update Azahar](#how-to-update-azahar)
-    - [How to Launch Azahar in Desktop Mode](#how-to-launch-azahar-in-desktop-mode)
-    - [File Formats](#azahar-file-formats)
-    - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
-    - [Hotkeys](#azahar-hotkeys)
-2. [Common Issues](#azahar-common-issues)
-    - [Why did my game suddenly stop working?](#why-did-my-game-suddenly-stop-working)
-3. [Azahar Tips and Tricks](#azahar-tips-and-tricks)
-    - [How to Configure Gyro](#how-to-configure-gyro)
-    - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
-    - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
-    - [How to Install Custom Textures](#how-to-install-custom-textures)
-    - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Roll Back Azahar to an Older Version](#how-to-roll-back-azahar-to-an-older-version)
-    - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
-    - [How to Install the Universal Pokemon Randomizer](../../community-creations/steamos/tools-and-guides.md#how-to-install-the-universal-pokemon-randomizer)
-    - [How to Configure Language Settings](#how-to-configure-language-settings)
-4. [Custom Screen Layouts](#custom-screen-layouts)
-    - [How to Create Custom Screen Layouts](#how-to-create-custom-screen-layouts)
-    - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
-    - [How to Configure Bottom Screen With PiP and Opacity](#how-to-configure-bottom-screen-with-pip-and-opacity)
-    - [How to Configure Bottom Screen as PiP in the Top Right Corner](#how-to-configure-bottom-screen-as-pip-in-the-top-right-corner)
-
-5. [Online Features](#online-features)
-    - [How to Set Up System Files](#how-to-set-up-system-files)
-    - [How to Set Up your Nintendo Network ID](#how-to-set-up-your-nintendo-network-id)
-    - [How to Set Up Pretendo Network](#how-to-set-up-pretendo-network)
+[TOC]
 
 ***
 
