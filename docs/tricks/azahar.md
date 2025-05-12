@@ -1,6 +1,8 @@
+# <img src="/assets/emulators/citra.png" alt="EmuDeck guide" width="80" style="vertical-align: middle"> Azahar Tips and Tricks
+
 [TOC]
 
-***
+---
 
 ## Getting Started with Azahar
 [Back to the Top](#azahar-table-of-contents)
@@ -14,7 +16,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * `Emulators`
 
 
-***
+---
 
 ### Azahar Configuration
 [Back to the Top](#azahar-table-of-contents)
@@ -37,7 +39,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Steam ROM Manager
 * ES-DE
 
-***
+---
 
 ### Azahar Folder Locations
 [Back to the Top](#azahar-table-of-contents)
@@ -101,7 +103,7 @@ azahar/
 ```
 
 
-***
+---
 
 ### How to Update Azahar
 [Back to the Top](#azahar-table-of-contents)
@@ -114,7 +116,7 @@ azahar/
 * Through the emulator GUI itself by launching the AppImage/Windows executable.
 
 
-***
+---
 
 ### How to Launch Azahar in Desktop Mode
 
@@ -125,7 +127,7 @@ azahar/
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
 
-***
+---
 
 ### Azahar File Formats
 [Back to the Top](#azahar-table-of-contents)
@@ -157,7 +159,7 @@ If you have installed your system files and have your NNID sorted, you can also 
 3. Click `Install CIA...`
 4. Navigate to your DLC or update files
 
-***
+---
 
 ### Azahar Hotkeys
 [Back to the Top](#azahar-table-of-contents)
@@ -175,12 +177,12 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 * If you would like to use touch menus if your device supports it, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
-***
+---
 
 ## Azahar Common Issues
 [Back to the Top](#azahar-table-of-contents)
 
-***
+---
 
 ### Why did my game suddenly stop working? 
 [Back to the Top](#azahar-table-of-contents)
@@ -195,12 +197,12 @@ To clear the shader cache:
 
 **Note:** Use the `Select` + `Start` hotkey to exit your game instead of using the `STEAM` button. 
 
-***
+---
 
 ## Azahar Tips and Tricks
 [Back to the Top](#azahar-table-of-contents)
 
-***
+---
 
 ### How to Configure Gyro
 [Back to the Top](#azahar-table-of-contents)
@@ -209,7 +211,7 @@ Gyro for Azahar requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via
 
 Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
-***
+---
 
 ### How to Configure Gyro With External Controllers
 [Back to the Top](#azahar-table-of-contents)
@@ -272,14 +274,14 @@ To restore the default Steam Deck controls:
     * You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
 
-***
+---
 
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#azahar-table-of-contents)
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
-***
+---
 
 ### How to Install Custom Textures
 [Back to the Top](#azahar-table-of-contents)
@@ -312,7 +314,7 @@ Here's how to install custom textures for Azahar:
     Consider enabling `Preload Custom Textures`. This may help performance in some cases. 
 
 
-***
+---
 
 ### How to Use Cheats
 [Back to the Top](#azahar-table-of-contents)
@@ -338,14 +340,14 @@ _This list is not exhaustive_
 7. Check the box to the left of the cheat to enable it
     * <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300"> 
 
-***
+---
 
 ### How to Roll Back Azahar to an Older Version
 [Back to the Top](#azahar-table-of-contents)
 
 The Appimage executable for Azahar is stored in `Home/Applications`, the Windows executable and it's associated files is stored in `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar`, replace these files with the version you intend to use from the releases page: [https://github.com/azahar-emu/azahar/releases](https://github.com/azahar-emu/azahar/releases)
 
-***
+---
 
 ### How to Configure Language Settings
 [Back to the Top](#azahar-table-of-contents)
@@ -366,12 +368,12 @@ The Appimage executable for Azahar is stored in `Home/Applications`, the Windows
 4. Click the `System` tab
 5. Under `System Settings`, select your preferred language in the drop-down menu
 
-***
+---
 
 ## Custom Screen Layouts
 [Back to the Top](#azahar-table-of-contents)
 
-***
+---
 
 ### How to Create Custom Screen Layouts.
 [Back to the Top](#azahar-table-of-contents)
@@ -388,7 +390,7 @@ After you have created your custom layout, use the following steps to use it.
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with your newly created layout
 
-***
+---
 
 ### How to Configure Bottom Screen as PiP
 [Back to the Top](#azahar-table-of-contents)
@@ -501,7 +503,7 @@ upright_screen\default=true
 ```
 
 
-***
+---
 
 ### How to Configure Bottom Screen With PiP and Opacity
 [Back to the Top](#azahar-table-of-contents)
@@ -617,7 +619,7 @@ upright_screen=false
 upright_screen\default=true
 ```
 
-***
+---
 
 ### How to Configure Bottom Screen as PiP in the Top Right Corner
 [Back to the Top](#azahar-table-of-contents)
@@ -730,7 +732,7 @@ upright_screen\default=true
 
 ## Online Features
 
-***
+---
 ### How to Set Up System Files
 
 * Do NOT share any files obtained with these steps, as it could get your system banned from Nintendo or Pretendo servers.
@@ -756,7 +758,7 @@ upright_screen\default=true
 7. Once successfully updated, confirm the update.
 
 You should now have your system files ready to go.
-***
+---
 
 ### How to Set Up your Nintendo Network ID
 
@@ -792,8 +794,7 @@ You should now have your system files ready to go.
 After following the prompts, you should now have access to the Nintendo EShop or Pokémon Bank.
 
 
-***
-
+---
 ### How to Set Up Pretendo Network
 
 * This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) tab.
@@ -812,4 +813,4 @@ After following the prompts, you should now have access to the Nintendo EShop or
 6. Run the newly installed Nimbus program, and select Pretendo, it should take you back to the Home Menu.
 
 You should now have access to the Pretendo Network.
-***
+---
