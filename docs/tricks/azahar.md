@@ -758,6 +758,8 @@ upright_screen\default=true
 7. Once successfully updated, confirm the update.
 
 You should now have your system files ready to go.
+
+
 ---
 
 ### How to Set Up your Nintendo Network ID
