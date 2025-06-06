@@ -217,7 +217,7 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 * Windows
 
 1. Download the version of the emulator you would like to use from GitLab: [https://git.ryujinx.app/ryubing/ryujinx/-/releases](https://git.ryujinx.app/ryubing/ryujinx/-/releases)
-2. Move the downloaded emulator and it's associated files to `Users/USERNAME/AppData/Roaming/EmuDeck/Emulators/Ryujinx, if the Ryujinx folder does not exist, you can create it.
+2. Move the downloaded emulator and it's associated files to `Users/USERNAME/AppData/Roaming/EmuDeck/Emulators/Ryujinx`, if the Ryujinx folder does not exist, you can create it.
 3. (Optional) Rename or delete the original emulator files if they exist.
 4. Go into the EmuDeck app, Manage Emulators, Ryujinx, and hit "reset configuration" to obtain the correct configurations.
 
