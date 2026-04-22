@@ -132,6 +132,8 @@ azahar/
 ### Azahar File Formats
 [Back to the Top](#azahar-tips-and-tricks)
 
+* .3ds (Only on Azahar versions 2124.3 and above)
+* .3dsx (Only on Azahar versions 2124.3 and above)
 * .cia
 * .app 
 * .axf 
@@ -141,9 +143,9 @@ azahar/
 
 **IMPORTANT:** 
 
-* `.cia` can only be used if you install it through Azahar. **Do not** place your `.cia` ROMs in either the `Emulation/roms/3ds` or the `Emulation/roms/n3ds` folders. The .cia file format **is not** compatible with Steam ROM Manager and EmulationStation-DE.
-* `.3ds` and `.3dsx` are no longer supported, you will have to change the file extension to `.cci` to use the file with Azahar.
-* Encrypted ROMS are no longer supported, you must decrypt them or dump the games with GodMode9 in order to use them.
+* `.cia` can only be used if you install it through Azahar. **Do not** place your `.cia` ROMs in either the `Emulation/roms/3ds` or the `Emulation/roms/n3ds` folders. The .cia file format **is not** compatible with Steam ROM Manager, EmulationStation-DE, or the Pegasus frontend.
+* `.3ds` and `.3dsx` are not supported on older versions of Azahar prior to version 2124.3, please up date the emulator to use these type of files.
+* Encrypted ROMS are no longer supported, you must decrypt them or dump the games with GodMode9 on a Nintendo 3DS in order to use them.
 ***
 
 ### How to Manage DLC and Updates
