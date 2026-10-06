@@ -24,7 +24,7 @@ Wether you picked _Easy Mode_ or _Custom Mode_ you'll see this screen asking how
             | Nintendo Switch - Citron | ==Emulation/bios/citron or installed using Citron== |
             | Nintendo Switch - Eden | ==Emulation/bios/eden or installed using Eden== |
             | Nintendo DS (Optional) | ==Emulation/bios== |
-            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows==
+            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows== |
             | Sega Dreamcast (Optional) | ==Emulation/bios/dc== |
             | Xbox | ==Emulation/bios== |
             | Retroarch | ==Emulation/bios== |
@@ -244,7 +244,7 @@ Wether you picked _Easy Mode_ or _Custom Mode_ you'll see this screen asking how
             | Nintendo Switch - Citron | ==Emulation/bios/citron or installed using Citron== |
             | Nintendo Switch - Eden | ==Emulation/bios/eden or installed using Eden== |
             | Nintendo DS (Optional) | ==Emulation/bios== |
-            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows==
+            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows== |
             | Sega Dreamcast (Optional) | ==Emulation/bios/dc== |
             | Xbox | ==Emulation/bios== |
             | Retroarch | ==Emulation/bios== |
