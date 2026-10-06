@@ -20,9 +20,10 @@ Wether you picked _Easy Mode_ or _Custom Mode_ you'll see this screen asking how
             | Playstation 3 | ==Must be installed using RPCS3== |
             | Nintendo Switch - Yuzu | ==Emulation/bios/yuzu/== |
             | Nintendo Switch - Ryujinx | ==Emulation/bios/Ryujinx/keys & firmware must be installed using Ryujinx== |
-            | Nintendo Switch - Citron | ==Emulation/bios/citron== |
-            | Nintendo DS | ==Emulation/bios== |
-            | Sega Dreamcast | ==Emulation/bios/dc== |
+            | Nintendo Switch - Citron | ==Emulation/bios/citron or installed using Citron== |
+            | Nintendo Switch - Eden | ==Emulation/bios/eden or installed using Eden== |
+            | Nintendo DS (Optional) | ==Emulation/bios== |
+            | Sega Dreamcast (Optional) | ==Emulation/bios/dc== |
             | Xbox | ==Emulation/bios== |
 
         ??? info "ROMS folders explanation"
